@@ -1,0 +1,296 @@
+/*
+    
+     Your Name:Cordale Graham  
+    File Name:Data File 3
+	Date:3/3/2024
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, h3, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #9d4502;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+
+body img{
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #341c09;
+	color: #feab6d;
+	padding: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+head img {
+	float:center;
+}
+
+/* Style rules for nav area */
+nav {
+	background-color: #341c09;
+	padding: 0.5%;
+	color: #feab6d;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+nav li {
+	display: inline;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+nav li a {
+	color: #feab6d;
+	padding: 1% 3%;
+	text-decoration: none;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/* Style rules for main content  */
+main {
+	padding: 1em;
+	 margin-top: 2%;
+	  text-align: center;
+	  font-family: Verdana, Arial, sans-serif;
+}
+
+main h1 {
+    color: #341c09;
+    text-align: center;
+    margin-top: 2%;
+	font-size: 2em;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+main h3 {
+    color: #341c09;
+    text-align: center;
+    margin-top: 2%;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+section {
+    color: #fff;
+    padding: 3%;
+	float: Center;
+}
+article h1{
+	 color: #fff;
+    text-align: center;
+    margin-top: 2%;
+	font-size: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	
+}
+
+article h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+	font-size: 1.5em;
+	 padding: 2%;
+	 font-family: Verdana, Arial, sans-serif;
+}
+
+
+article p {
+   line-height: 1.2em;
+   text-align: center;
+   margin-right: 3%;
+    background-color: #375f1b;
+	font-size: 1.25em;
+	 padding: 2%;
+	 font-family: Verdana, Arial, sans-serif;
+}
+
+article img{
+   line-height: 1.2em;
+   text-align: center;
+    margin-right: 5%;
+	 padding: 2%;
+}
+
+aside {
+    text-align: center;
+	font-size: 1.25em;
+	display: block;
+	color: #fff;
+	 padding: 2%;
+	 font-family: Verdana, Arial, sans-serif;
+    
+}
+
+aside img{
+    text-align: center;
+    
+}
+section img {
+	float: Center;
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+	float: Center;
+	 padding: 2%;
+	  margin-top:2%;
+	 margin-bottom:2%;
+	  margin-left:2%;
+	 margin-right:2%;
+	 padding-left: 10px;
+     padding-right: 10px;
+       }
+	   
+	   
+#persona5{
+	float: Center;
+}
+
+	   
+  main p {
+    font-size: 1.25em;
+	 background-color: #375f1b;
+	 Padding: 2%;
+	 margin-top:2%;
+	 margin-bottom:2%;
+	 margin-left:auto;
+	 margin-right:auto;
+	 text-align: center;
+	 border: 5px;
+	 max-width: 80%;
+       }
+	   
+th {background-color: #feab6d;
+    padding: 1em;
+	font-size: 1em;
+}
+
+td {
+    padding: 1em;
+	font-size: 1em;
+	border-collapse: collapse;
+}
+
+table {
+    background-color: #feab6d;
+    padding: 0.5em;
+    margin-top: 1%;
+    color: #9d4502;
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-radius: 15px;
+	border: 15px;
+	border-collapse: collapse;
+	text-shadow:  4px 4px 8px #fc7307;
+	width: 40%;
+	
+}
+
+form{
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #341c09;
+    font-size: 1.25em;
+    color: #fff;
+    border-radius: 10px;
+	margin-bottom: 0%;
+	margin-top: 0;
+	font: bold;
+	width: 80%;
+	
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 1%;
+}
+
+
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #341c09;
+    font-size: 1em;
+    color: #fff;
+    border-radius: 10px;
+	
+}	  
+
+footer {
+	font-size: 1.25em;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/* Style rules for mobile viewport */
+@media screen and (min-width: 480px), print {
+
+display{width: 40%;
+}
+
+nav {
+	background-color: #341c09;
+	padding: 0.5%;
+	color: #feab6d;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: #feab6d;
+	padding: 1% 3%;
+	text-decoration: none;
+}
+
+}
+
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 700px), print {
+	
+	nav {
+	background-color: #341c09;
+	padding: 0.5%;
+	color: #feab6d;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	color: #feab6d;
+	padding: 1% 3%;
+	text-decoration: none;
+}
+}
